@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD Form</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- start main -->
+        <section class="main">
+            <div class="container">
+                <div class="card u-mt-48 u-mb-48">
+                    <h3 class="heading u-mb-24"> My Account</h3>
+                    <form action="" class="form">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="u-pr-8--desktop">
+                                    <h3 class="h3 u-mb-24">Account Information</h3>
+                                    <div class="row u-mb-24">
+                                        <div class="col-sm-6 u-mb-24--mobile">
+                                            <label for="firstname">Firstname</label>
+                                            <input id="firstname" type="text">
+                                        </div>
+                                        <div class="col-sm-6 .u-mb-24--mobile">
+                                            <label for="lastname">Lastname</label>
+                                            <input id="lastname" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 u-mb-24--mobile">
+                                            <label for="email">Email</label>
+                                            <input id="email" type="email">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="u-pl-8--desktop">
+                                    <h3 class="h3 u-mb-24">Change Password</h3>
+                                    <div class="row u-mb-24">
+                                        <div class="col-sm-12">
+                                            <label for="New password">New password</label>
+                                            <input id="New password" type="password">
+                                        </div>
+                                    </div>
+                                    <div class="row u-mb-24">
+                                        <div class="col-sm-12">
+                                            <label for="Confirm New Password">Confirm New Password</label>
+                                            <input id="Confirm New Password" type="password">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="h3 u-mb-24">Shipping Adress</h3> <!-- 要row裡面要加col-否則會跑版 -->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="u-pr-8--desktop">
+                                    <div class="u-mb-24">
+                                        <label for="Address Line 1">Address Line 1</label>
+                                        <input id="Address Line 1" type="text">
+                                    </div>
+                                    <div class="u-mb-24">
+                                        <label for="Address Line 2">Address Line 2</label>
+                                        <input id="Address Line 2" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="u-pl-8--desktop">
+                                    <div class="row">
+                                        <div class="col-sm-6 u-mb-24">
+                                            <label for="country">Country</label>
+                                            <select name="" id="country">
+                                                <option value="">Taiwan</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-sm-6 u-mb-24">
+                                            <label for="state">State</label>
+                                            <select name="" id="state">
+                                                <option value="">Taichung</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 u-mb-24--mobile">
+                                            <label for="zip/postal">Zip/Postal</label>
+                                            <input id="zip/postal" type="text">
+                                        </div>
+                                        <div class="col-sm-6 u-mb-24--mobile">
+                                            <label for="phone">Phone</label>
+                                            <input id="Phone" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="h3 u-mb-24">Newsletter</h3>
+                        <div class="row">
+                            <div class="col-sm-6 u-mb-24--mobile">
+                                <label for="news">
+                                    <input id="news" type="checkbox">Keep in touch with our newsletter
+                                </label>
+                            </div>
+                            <div class="col-sm-6 u-text-right">
+                                <input type="submit" class="btn btn--primary" value="save changes">
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
